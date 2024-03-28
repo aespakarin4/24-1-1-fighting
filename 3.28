@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main(void)
+
+{
+	int x = 10;
+	printf("x=%d\n", x);
+
+	int nextx = ++x;
+	printf("++x의 값=%d\n", x);
+	printf("x=%d\n", nextx);
+
+	int y = 10;
+	printf("y=%d\n", y);
+	int nexty = y++;
+	printf("y++의 값=%d\n", nexty);
+	printf("y=%d\n", y);
+
+	
+
+	
+	
+	return 0;
+}
